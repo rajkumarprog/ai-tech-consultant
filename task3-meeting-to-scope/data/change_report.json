@@ -1,0 +1,75 @@
+{
+  "baseline": "meeting_a",
+  "followup": "meeting_c",
+  "prompt_version": "diff-v3",
+  "added_out_of_scope": [
+    {
+      "new_id": "REQ-003",
+      "description": "Provide a bilingual site in Spanish and English, translating all pages eventually, starting with the homepage and search pages.",
+      "action": "add",
+      "quote": "Third, I want the site in Spanish and English. Lots of our customers speak Spanish.",
+      "status": "confirmed",
+      "flag": "Potential out-of-scope work; human review required"
+    }
+  ],
+  "modified": [
+    {
+      "new_id": "REQ-002",
+      "description": "Add a price range filter to the search functionality, alongside category and city filters.",
+      "action": "add",
+      "quote": "Second, search. Along with category and city, I also want a price range filter.",
+      "status": "confirmed",
+      "baseline_id": "REQ-001",
+      "baseline_description": "Add search filters allowing users to narrow results by category and city"
+    },
+    {
+      "new_id": "REQ-004",
+      "description": "Deliver the mobile fix by mid\u2011November 2026 instead of end of November.",
+      "action": "change",
+      "quote": "I need the mobile fix earlier. Mid-November instead of end of November.",
+      "status": "confirmed",
+      "baseline_id": "REQ-004",
+      "baseline_description": "Fix the mobile homepage layout so the menu does not overlap the logo and looks good on phones"
+    }
+  ],
+  "removed": [
+    {
+      "new_id": "REQ-001",
+      "description": "Remove the newsletter feature; client will use Mailchimp instead.",
+      "action": "remove",
+      "quote": "First, the newsletter. Drop it. I will use Mailchimp instead.",
+      "status": "confirmed",
+      "baseline_id": "REQ-003",
+      "baseline_description": "Implement a monthly newsletter that is sent only to members who have opted in"
+    }
+  ],
+  "unchanged": [
+    {
+      "new_id": "REQ-005",
+      "description": "Keep member\u2011adding functionality unchanged from the previous specification.",
+      "action": "keep",
+      "quote": "Unchanged, same as before.",
+      "status": "confirmed",
+      "baseline_id": "REQ-002",
+      "baseline_description": "Streamline the member addition process to reduce manual admin effort"
+    }
+  ],
+  "not_discussed": [],
+  "constraint_changes": [
+    {
+      "type": "deadline",
+      "from": "end of November 2026",
+      "to": "mid-November 2026"
+    }
+  ],
+  "human_approval_required": true,
+  "notes": [
+    {
+      "new_id": "REQ-006",
+      "description": "Maintain the project budget at three thousand dollars and do not exceed it.",
+      "action": "keep",
+      "quote": "Yes, and I do not want to go over it.",
+      "status": "confirmed"
+    }
+  ]
+}

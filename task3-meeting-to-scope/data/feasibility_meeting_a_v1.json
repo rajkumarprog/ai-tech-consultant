@@ -1,0 +1,46 @@
+[
+ {
+  "id": "REQ-001",
+  "description": "Add search filters allowing users to narrow results by category and city",
+  "action": "add",
+  "kb_status": "insufficient_evidence",
+  "kb_answer": null,
+  "sources": [],
+  "label": "needs_clarification",
+  "reason": "Knowledge Brain returned 'insufficient_evidence'. A missing result does not prove the feature is absent: ask a human expert.",
+  "prompt_version": "feasibility-v1"
+ },
+ {
+  "id": "REQ-002",
+  "description": "Streamline the member addition process to reduce manual admin effort",
+  "action": "add",
+  "kb_status": "insufficient_evidence",
+  "kb_answer": null,
+  "sources": [],
+  "label": "needs_clarification",
+  "reason": "Knowledge Brain returned 'insufficient_evidence'. A missing result does not prove the feature is absent: ask a human expert.",
+  "prompt_version": "feasibility-v1"
+ },
+ {
+  "id": "REQ-003",
+  "description": "Implement a monthly newsletter that is sent only to members who have opted in",
+  "action": "add",
+  "kb_status": "insufficient_evidence",
+  "kb_answer": null,
+  "sources": [],
+  "label": "needs_clarification",
+  "reason": "Knowledge Brain returned 'insufficient_evidence'. A missing result does not prove the feature is absent: ask a human expert.",
+  "prompt_version": "feasibility-v1"
+ },
+ {
+  "id": "REQ-004",
+  "description": "Fix the mobile homepage layout so the menu does not overlap the logo and looks good on phones",
+  "action": "add",
+  "kb_status": "insufficient_evidence",
+  "kb_answer": null,
+  "sources": [],
+  "label": "needs_clarification",
+  "reason": "Knowledge Brain returned 'insufficient_evidence'. A missing result does not prove the feature is absent: ask a human expert.",
+  "prompt_version": "feasibility-v1"
+ }
+]

@@ -3,44 +3,66 @@
   "id": "REQ-001",
   "description": "Add search filters allowing users to narrow results by category and city",
   "action": "add",
-  "kb_status": "insufficient_evidence",
-  "kb_answer": null,
-  "sources": [],
-  "label": "needs_clarification",
-  "reason": "Knowledge Brain returned 'insufficient_evidence'. A missing result does not prove the feature is absent: ask a human expert.",
-  "prompt_version": "feasibility-v1"
+  "query_used": "Search filters category city",
+  "kb_status": "answered",
+  "kb_answer": "You can filter members by their primary (top\u2011level) category and then limit the results to a specific city. The dynamic search\u2011results pages support this combination with a URL pattern such as:\n\n```\n/%country_name%/%city_name%/%profession%\n```\n\nHere \u201c%profession%\u201d is the top\u2011level category and \u201c%city_name%\u201d is the city you want to restrict the search to. Use the **Top\u2011Level Category** filter to select the category, then apply the city segment in the URL (or the corresponding city filter) to see only members in that city.",
+  "sources": [
+   {
+    "title": "My Members Search Members \u00bb Search Filters",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000103849-my-members-search-members-search-filters"
+   },
+   {
+    "title": "How To Edit The SEO Settings Of  Dynamic (Search Results) Pages",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682653-how-to-edit-the-seo-settings-of-dynamic-search-results-pages"
+   },
+   {
+    "title": "Instant Business Data",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100253-instant-business-data"
+   }
+  ],
+  "label": "existing_configuration",
+  "reason": "The platform already provides built\u2011in category and city filters via URL patterns and top\u2011level category filter",
+  "prompt_version": "feasibility-v2"
  },
  {
   "id": "REQ-002",
   "description": "Streamline the member addition process to reduce manual admin effort",
   "action": "add",
+  "query_used": "streamline member addition process manual",
   "kb_status": "insufficient_evidence",
   "kb_answer": null,
   "sources": [],
   "label": "needs_clarification",
   "reason": "Knowledge Brain returned 'insufficient_evidence'. A missing result does not prove the feature is absent: ask a human expert.",
-  "prompt_version": "feasibility-v1"
+  "prompt_version": "feasibility-v2"
  },
  {
   "id": "REQ-003",
   "description": "Implement a monthly newsletter that is sent only to members who have opted in",
   "action": "add",
-  "kb_status": "insufficient_evidence",
-  "kb_answer": null,
-  "sources": [],
-  "label": "needs_clarification",
-  "reason": "Knowledge Brain returned 'insufficient_evidence'. A missing result does not prove the feature is absent: ask a human expert.",
-  "prompt_version": "feasibility-v1"
+  "query_used": "Newsletter monthly opt in members",
+  "kb_status": "answered",
+  "kb_answer": "The newsletter form includes a consent checkbox that lets visitors actively opt\u2011in. When they check it, their consent is recorded in the **user_consent** column for that member, enabling you to identify the monthly newsletter opt\u2011in list. If the installer is skipped, the checkbox won\u2019t appear and no consent will be stored.",
+  "sources": [
+   {
+    "title": "Install User Consent Tools (GDPR) - Dashboard Installer",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109094-install-user-consent-tools-gdpr-dashboard-installer"
+   }
+  ],
+  "label": "existing_limited",
+  "reason": "Shows opt\u2011in tracking but doesn't confirm monthly newsletter scheduling",
+  "prompt_version": "feasibility-v2"
  },
  {
   "id": "REQ-004",
   "description": "Fix the mobile homepage layout so the menu does not overlap the logo and looks good on phones",
   "action": "add",
+  "query_used": "fix mobile homepage layout menu",
   "kb_status": "insufficient_evidence",
   "kb_answer": null,
   "sources": [],
   "label": "needs_clarification",
   "reason": "Knowledge Brain returned 'insufficient_evidence'. A missing result does not prove the feature is absent: ask a human expert.",
-  "prompt_version": "feasibility-v1"
+  "prompt_version": "feasibility-v2"
  }
 ]

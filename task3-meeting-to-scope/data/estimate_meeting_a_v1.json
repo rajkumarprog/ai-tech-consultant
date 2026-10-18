@@ -1,0 +1,188 @@
+{
+ "meeting": "meeting_a",
+ "prompt_version": "estimate-v1",
+ "hourly_rate_placeholder": 40.0,
+ "currency": "USD",
+ "totals_hours": {
+  "low": 66.0,
+  "likely": 114.0,
+  "high": 167.0
+ },
+ "totals_cost": {
+  "low": 2640,
+  "likely": 4560,
+  "high": 6680
+ },
+ "client_budget": 3000.0,
+ "requirements": [
+  {
+   "id": "REQ-001",
+   "description": "Add search filters allowing users to narrow results by category and city",
+   "label": "needs_clarification",
+   "provisional": true,
+   "status": "estimated",
+   "tasks": [
+    {
+     "task": "Gather requirements and confirm existing search capabilities (category and city fields available)",
+     "low": 2.0,
+     "likely": 4.0,
+     "high": 6.0,
+     "assumption": "Assume platform has a searchable index with category and city attributes but no UI filters."
+    },
+    {
+     "task": "Design UI components for filter dropdowns (category, city) and integrate into search page",
+     "low": 4.0,
+     "likely": 6.0,
+     "high": 8.0,
+     "assumption": "Assume existing front\u2011end framework allows adding new components without major redesign."
+    },
+    {
+     "task": "Implement backend query logic to apply category and city filters to search results",
+     "low": 6.0,
+     "likely": 10.0,
+     "high": 14.0,
+     "assumption": "Assume the platform's search API can accept additional query parameters and supports filtering."
+    },
+    {
+     "task": "Update API endpoints / documentation to expose filter parameters and handle validation",
+     "low": 3.0,
+     "likely": 5.0,
+     "high": 7.0,
+     "assumption": "Assume we have access to modify the API layer and can redeploy without breaking other features."
+    },
+    {
+     "task": "Testing: unit tests for backend, UI testing, QA verification across browsers",
+     "low": 4.0,
+     "likely": 6.0,
+     "high": 8.0,
+     "assumption": "Assume test framework is in place and can be extended with new test cases."
+    }
+   ]
+  },
+  {
+   "id": "REQ-002",
+   "description": "Streamline the member addition process to reduce manual admin effort",
+   "label": "needs_clarification",
+   "provisional": true,
+   "status": "estimated",
+   "tasks": [
+    {
+     "task": "Analyze current member addition workflow and document manual steps",
+     "low": 2.0,
+     "likely": 4.0,
+     "high": 6.0,
+     "assumption": "Admins currently add members one\u2011by\u2011one through a built\u2011in admin panel with no bulk or self\u2011service options."
+    },
+    {
+     "task": "Design and prototype a streamlined member addition UI (bulk upload CSV and optional self\u2011service registration form)",
+     "low": 4.0,
+     "likely": 8.0,
+     "high": 12.0,
+     "assumption": "The platform allows custom front\u2011end components and can host uploaded files for processing."
+    },
+    {
+     "task": "Implement backend automation: create API endpoints, validation logic, CSV parsing, and email notifications",
+     "low": 8.0,
+     "likely": 16.0,
+     "high": 24.0,
+     "assumption": "The platform provides an extensible backend (e.g., Node/Java/PHP) and access to the member database schema."
+    },
+    {
+     "task": "QA, integration testing, documentation, and admin training for the new workflow",
+     "low": 4.0,
+     "likely": 8.0,
+     "high": 12.0,
+     "assumption": "A staging environment and test accounts are available for validation."
+    }
+   ]
+  },
+  {
+   "id": "REQ-003",
+   "description": "Implement a monthly newsletter that is sent only to members who have opted in",
+   "label": "needs_clarification",
+   "provisional": true,
+   "status": "estimated",
+   "tasks": [
+    {
+     "task": "Create and style the monthly newsletter email template and add a content management interface for editors",
+     "low": 4.0,
+     "likely": 6.0,
+     "high": 8.0,
+     "assumption": "Platform includes a basic WYSIWYG editor or a content block system for managing email content."
+    },
+    {
+     "task": "Add/verify an opt\u2011in boolean field on the member profile and integrate the opt\u2011in UI into the registration and account settings pages",
+     "low": 3.0,
+     "likely": 5.0,
+     "high": 7.0,
+     "assumption": "Member data model is extensible and the UI framework allows adding a simple checkbox."
+    },
+    {
+     "task": "Develop a backend service that assembles the newsletter (pulls dynamic content, applies the template) and queries only members with opt\u2011in = true",
+     "low": 5.0,
+     "likely": 8.0,
+     "high": 12.0,
+     "assumption": "Platform provides a server\u2011side language/runtime (e.g., Node.js, PHP, Ruby) and a database query layer."
+    },
+    {
+     "task": "Configure a scheduled job (cron, task scheduler, or platform\u2011provided scheduler) to run the newsletter service once per month and send emails via the existing SMTP/mail service",
+     "low": 3.0,
+     "likely": 5.0,
+     "high": 7.0,
+     "assumption": "An automated scheduler is available and the platform already has an email delivery service configured."
+    },
+    {
+     "task": "Test end\u2011to\u2011end flow: opt\u2011in handling, content rendering, email deliverability, unsubscribe link, and monthly trigger; fix any issues",
+     "low": 4.0,
+     "likely": 6.0,
+     "high": 9.0,
+     "assumption": "Test environment mirrors production email sending capabilities."
+    }
+   ]
+  },
+  {
+   "id": "REQ-004",
+   "description": "Fix the mobile homepage layout so the menu does not overlap the logo and looks good on phones",
+   "label": "needs_clarification",
+   "provisional": true,
+   "status": "estimated",
+   "tasks": [
+    {
+     "task": "Investigate current mobile homepage layout to locate CSS/HTML causing the menu to overlap the logo and document required changes.",
+     "low": 2.0,
+     "likely": 3.0,
+     "high": 5.0,
+     "assumption": "The site uses a responsive CSS framework (e.g., Bootstrap) and source files are accessible."
+    },
+    {
+     "task": "Update CSS (media queries or flex/grid rules) to reposition the menu so it no longer overlaps the logo on typical phone widths (320\u2011480\u202fpx).",
+     "low": 3.0,
+     "likely": 5.0,
+     "high": 8.0,
+     "assumption": "The layout can be fixed with CSS adjustments without requiring a redesign of the header component."
+    },
+    {
+     "task": "If necessary, adjust the header markup (HTML) to improve the stacking order or element hierarchy for mobile view.",
+     "low": 2.0,
+     "likely": 3.0,
+     "high": 5.0,
+     "assumption": "Minor markup changes are sufficient and will not impact other pages."
+    },
+    {
+     "task": "Perform functional and visual testing on multiple mobile devices and emulators (iOS, Android, various screen sizes) to confirm the fix works and does not introduce regressions.",
+     "low": 2.0,
+     "likely": 4.0,
+     "high": 6.0,
+     "assumption": "Test devices/emulators are available and the QA process can be executed internally."
+    },
+    {
+     "task": "Deploy the CSS/HTML changes to the staging environment, obtain stakeholder sign\u2011off, then promote to production.",
+     "low": 1.0,
+     "likely": 2.0,
+     "high": 3.0,
+     "assumption": "Standard CI/CD pipeline is in place and deployment windows are open."
+    }
+   ]
+  }
+ ]
+}
