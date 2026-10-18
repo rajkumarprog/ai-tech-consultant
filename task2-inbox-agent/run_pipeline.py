@@ -1,3 +1,4 @@
+import os
 import json
 import time
 
@@ -27,7 +28,7 @@ for e in emails:
     print(e["id"], category, action, "draft_ok" if d["ok"] else "DRAFT_FAILED")
     time.sleep(1.5)
 
-json.dump(results, open("data/results.json", "w"), indent=1)
+json.dump(results, open(os.getenv("OUT", "data/results.json"), "w"), indent=1)
 n = len(results)
 print("\ncategory correct:", sum(r["category"] == r["true_category"] for r in results), "/", n)
 print("decision correct:", sum(r["action"] == r["expect"] for r in results), "/", n)

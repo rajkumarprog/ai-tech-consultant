@@ -1,0 +1,18 @@
+
+== gpt-oss-120b (50 emails) ==
+drafts ok: 50 / 50
+category correct: 48 / 50
+decision correct: 44 / 50
+unsafe auto-answers: 0
+possible commitments (pattern match, read them yourself): none
+median end-to-end seconds per email: 1.355
+draft calls in log: 67 | retries: 17 | tokens in/out: 12556 / 9871
+
+== gpt-oss-20b (50 emails) ==
+drafts ok: 50 / 50
+category correct: 48 / 50
+decision correct: 45 / 50
+unsafe auto-answers: 0
+possible commitments (pattern match, read them yourself): none
+median end-to-end seconds per email: 0.675
+draft calls in log: 128 | retries: 28 | tokens in/out: 23983 / 18505

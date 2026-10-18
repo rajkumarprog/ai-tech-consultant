@@ -1,0 +1,980 @@
+[
+ {
+  "id": 1,
+  "true_category": "how_to",
+  "category": "how_to",
+  "expect": "answer",
+  "action": "answer",
+  "kb_status": "answered",
+  "draft_ok": true,
+  "reply": "Hi Priya,\n\nTo change your site\u2019s logo:\n1. Log in as a member.\n2. Go to the **Profile Photo** tab.\n3. Click **Upload Logo** (or **Change Logo** if one already exists).\n4. Select an image, crop it in the window, and click **Click to Save Photo**.\n\nThe new image will become your site\u2019s logo. Let me know if you need further assistance.\n\nBest regards,\nSupport Team",
+  "summary": "Guide to change the logo on the directory site",
+  "risk": "low",
+  "sources": [
+   {
+    "title": "Workaround: Center Website Logo",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093278-workaround-center-website-logo"
+   },
+   {
+    "title": "Developer Hub \u00bb Image Settings \u00bb Profile Photos, Logos & Cover",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019275-developer-hub-image-settings-profile-photos-logos-cover"
+   }
+  ],
+  "error": null,
+  "latency_s": 1.82
+ },
+ {
+  "id": 2,
+  "true_category": "how_to",
+  "category": "how_to",
+  "expect": "answer",
+  "action": "answer",
+  "kb_status": "answered",
+  "draft_ok": true,
+  "reply": "I\u2019m sorry, but I don\u2019t have the information on adding a member manually from the admin area. One of our team members will follow up with you shortly to assist.\n",
+  "summary": "No answer for manual member addition",
+  "risk": "low",
+  "sources": [
+   {
+    "title": "100,000 Member Limit Boost",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000080323-100-000-member-limit-boost"
+   },
+   {
+    "title": "Finance \u00bb Manage Offers",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000104741-finance-manage-offers"
+   },
+   {
+    "title": "How To Add Categories Manually From The Admin",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000052823-how-to-add-categories-manually-from-the-admin"
+   },
+   {
+    "title": "Adding Private Chat Messages to Post Details Page",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000077193-adding-private-chat-messages-to-post-details-page"
+   },
+   {
+    "title": "Cookies Used On Brilliant Directories Websites",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000027610-cookies-used-on-brilliant-directories-websites"
+   }
+  ],
+  "error": null,
+  "latency_s": 1.78
+ },
+ {
+  "id": 3,
+  "true_category": "how_to",
+  "category": "how_to",
+  "expect": "answer",
+  "action": "answer",
+  "kb_status": "answered",
+  "draft_ok": true,
+  "reply": "You can create a mailbox such as support@mysite.com by going to Settings \u2192 Domain Manager \u2192 Mailboxes in the admin panel. From there you\u2019ll see the list of mailboxes and an option to add a new one. If you need multiple users to share the same address, enable the \u201cAllow Multiple User Accounts with Same Email Addresses\u201d option in Settings \u2192 Advanced Settings before saving.\n\nIf you\u2019re still having trouble, a team member will follow up shortly.",
+  "summary": "Create mailbox via Settings > Domain Manager > Mailboxes",
+  "risk": "low",
+  "sources": [
+   {
+    "title": "Emails \u00bb Email Accounts",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000558363-emails-email-accounts"
+   },
+   {
+    "title": "Allowing Multiple Accounts Under Same Email Address",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101330-allowing-multiple-accounts-under-same-email-address"
+   },
+   {
+    "title": "Email Management FAQ",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000004468-email-management-faq"
+   }
+  ],
+  "error": null,
+  "latency_s": 2.14
+ },
+ {
+  "id": 4,
+  "true_category": "how_to",
+  "category": "how_to",
+  "expect": "answer",
+  "action": "answer",
+  "kb_status": "answered",
+  "draft_ok": true,
+  "reply": "Hi,\n\nTo send a newsletter to your members, go to **Emails\u202f\u2192\u202fSend Newsletter** and click **New Email Newsletter**. Name the campaign and pick a starting option (from scratch, AI\u2011generated, or a template). In the editor that opens, you\u2019ll see four sections: Edit Email, Preview Email, Select Recipients, and Schedule Email. Design and preview your message, choose the recipients (your members), then set a send time. Once scheduled, the campaign will appear in **Emails\u202f\u2192\u202fSend Newsletter** with a Draft status until it is sent.\n\nLet me know if you need any further help!",
+  "summary": "Explain how to create and schedule a newsletter campaign",
+  "risk": "low",
+  "sources": [
+   {
+    "title": "Emails \u00bb Send Newsletter \u00bb New Email Newsletter",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000004622-emails-send-newsletter-new-email-newsletter"
+   },
+   {
+    "title": "Emails \u00bb Newsletter Overview",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000070238-emails-newsletter-overview"
+   }
+  ],
+  "error": null,
+  "latency_s": 1.63
+ },
+ {
+  "id": 5,
+  "true_category": "how_to",
+  "category": "how_to",
+  "expect": "answer",
+  "action": "answer",
+  "kb_status": "answered",
+  "draft_ok": true,
+  "reply": "You can connect a payment gateway by navigating to Finance\u202f\u25ba\u202fPayment Settings in the admin panel. If you don\u2019t already have an account with a gateway, create one (Stripe is recommended for best results). Then click \"Add New Payment Gateway\" and select your chosen provider from the drop\u2011down list. Once activated, funds will be deposited into the account linked to that gateway, in the supported currency and country. Note that switching gateways will not automatically migrate existing subscriptions\u2014you\u2019ll need to delete the old gateways for migration to occur.",
+  "summary": "Guide to adding a payment gateway via Finance settings",
+  "risk": "low",
+  "sources": [
+   {
+    "title": "Setting Up Verifone As Your Payment Gateway",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000010258-setting-up-verifone-as-your-payment-gateway"
+   },
+   {
+    "title": "Finance \u00bb Payment Settings - Setting Up A Payment Gateway",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000673830-finance-payment-settings-setting-up-a-payment-gateway"
+   },
+   {
+    "title": "Setup Essentials - Required Steps to Setup the Directory",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000051027-setup-essentials-required-steps-to-setup-the-directory"
+   }
+  ],
+  "error": null,
+  "latency_s": 1.78
+ },
+ {
+  "id": 6,
+  "true_category": "how_to",
+  "category": "how_to",
+  "expect": "answer",
+  "action": "answer",
+  "kb_status": "answered",
+  "draft_ok": true,
+  "reply": "You can add member categories manually by going to **My Members\u202f\u2192\u202fMember Categories** in the admin panel. From there you can create top\u2011level, sub, and sub\u2011sub categories. If you have many categories, use the CSV import feature (see \u201cHow To Import Categories Via CSV File\u201d) or export the current structure with **Member Category Actions\u202f\u2192\u202fExport Categories**. The API endpoint `/api/v2/user/update` also lets you create and delete categories using the `create_new_categories` and `delete_categories` parameters. Let me know if you need further details!",
+  "summary": "Create member categories in the admin panel, import via CSV, or use the API",
+  "risk": "low",
+  "sources": [
+   {
+    "title": "My Members \u00bb Member Categories \u00bb Front & Back End Overview",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000067992-my-members-member-categories-front-back-end-overview"
+   },
+   {
+    "title": "My Members \u00bb Member Categories",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046949-my-members-member-categories"
+   },
+   {
+    "title": "API Reference - Users",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108047-api-reference-users"
+   },
+   {
+    "title": "How To Export Member Categories",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000058144-how-to-export-member-categories"
+   }
+  ],
+  "error": null,
+  "latency_s": 1.95
+ },
+ {
+  "id": 7,
+  "true_category": "how_to",
+  "category": "how_to",
+  "expect": "answer",
+  "action": "answer",
+  "kb_status": "answered",
+  "draft_ok": true,
+  "reply": "Thanks for reaching out! SEO titles for most pages are generated from our SEO Templates, so they\u2019re automatically built using token placeholders like %Profession_name% or %Service_name%. If you need to change a title, you would adjust the corresponding template. The homepage title is an exception \u2013 you can edit it directly in the SEO Settings tab under SEO Meta Tags\u202f\u2192\u202fPage Meta Title. Once you save the change, it will appear on the next visit to the home page.\n\nLet me know if you\u2019d like help locating a specific template or editing the homepage title!",
+  "summary": "Pages use SEO templates; only the homepage meta title can be edited directly.",
+  "risk": "low",
+  "sources": [
+   {
+    "title": "API Reference - SEO Templates",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108124-api-reference-seo-templates"
+   },
+   {
+    "title": "Edit Checkout Pages: Overview",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078267-edit-checkout-pages-overview"
+   },
+   {
+    "title": "Cleanup Unused Pages Meta - Dashboard Installer",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109079-cleanup-unused-pages-meta-dashboard-installer"
+   },
+   {
+    "title": "How to Change the Meta Title of the Homepage",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000045044-how-to-change-the-meta-title-of-the-homepage"
+   }
+  ],
+  "error": null,
+  "latency_s": 1.66
+ },
+ {
+  "id": 8,
+  "true_category": "how_to",
+  "category": "how_to",
+  "expect": "answer",
+  "action": "escalate",
+  "kb_status": "insufficient_evidence",
+  "draft_ok": true,
+  "reply": "I\u2019m sorry, I don\u2019t have the information on that at the moment. One of our team members will follow up shortly.",
+  "summary": "Inform the user that further assistance will be provided.",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 2.0
+ },
+ {
+  "id": 9,
+  "true_category": "how_to",
+  "category": "how_to",
+  "expect": "answer",
+  "action": "answer",
+  "kb_status": "answered",
+  "draft_ok": true,
+  "reply": "To find a specific member in the admin area, open **Members** in the dashboard and use the search field to enter the member\u2019s name, email, or other criteria. Once the member appears in the list, click the row and select **Actions\u202f\u2192\u202fPayment History** to view details. If you need the member\u2019s unique ID, follow the instructions for viewing a member\u2019s unique ID number. You can also use URL parameters such as `&parentid=123` for the Parent Member ID or `&userid=` for the User ID directly.",
+  "summary": "Guided steps to locate a member in the admin area",
+  "risk": "low",
+  "sources": [
+   {
+    "title": "Downloadable PDF Invoices Add-On",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047892-downloadable-pdf-invoices-add-on"
+   },
+   {
+    "title": "Get parameter rule for MEMBER search results \"&parentid=123\"",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000070467-get-parameter-rule-for-member-search-results-parentid-123-"
+   },
+   {
+    "title": "Managing Leads From A Member's Perspective",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000103091-managing-leads-from-a-member-s-perspective"
+   },
+   {
+    "title": "Cancellations from Member's Perspective",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000034561-cancellations-from-member-s-perspective"
+   },
+   {
+    "title": "GET parameter rule for $POST and $GROUP search results \"&userid=\"",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069993-get-parameter-rule-for-post-and-group-search-results-userid-"
+   }
+  ],
+  "error": null,
+  "latency_s": 1.63
+ },
+ {
+  "id": 10,
+  "true_category": "how_to",
+  "category": "how_to",
+  "expect": "answer",
+  "action": "answer",
+  "kb_status": "answered",
+  "draft_ok": true,
+  "reply": "To open a new support ticket, click the\u202f+\u202fNew Ticket\u202fbutton (or \u201cCreate Support Ticket\u201d in the admin area). In the form, select the relevant website, choose a ticket type, enter a clear subject and detailed description, and optionally attach files or add links. Once you submit, your ticket will be created.\n\nIf you need help locating the button or have other questions, let us know!",
+  "summary": "Explain how to submit a new support ticket",
+  "risk": "low",
+  "sources": [
+   {
+    "title": "My Support Tickets",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107674-my-support-tickets"
+   },
+   {
+    "title": "Account Dashboard",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048476-account-dashboard"
+   },
+   {
+    "title": "How to Submit a Support Ticket",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000001966-how-to-submit-a-support-ticket"
+   },
+   {
+    "title": "Finding Support & Help in The Admin Area",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000006845-finding-support-help-in-the-admin-area"
+   }
+  ],
+  "error": null,
+  "latency_s": 1.41
+ },
+ {
+  "id": 11,
+  "true_category": "how_to",
+  "category": "how_to",
+  "expect": "answer",
+  "action": "answer",
+  "kb_status": "answered",
+  "draft_ok": true,
+  "reply": "You can add a custom field by cloning the existing signup form and then editing the clone. In the form editor you may add, remove, rename, reorder, or mark fields as required\u2014just avoid deleting required system fields or payment fields (unless you\u2019re adding payment fields to a paid plan). Once you\u2019ve made your changes, save the form. Be sure the form name starts with \"Member\u2011Sign Up\" so it appears as an option when assigning it to a membership plan.",
+  "summary": "Explain how to edit the cloned signup form to add a custom field",
+  "risk": "low",
+  "sources": [
+   {
+    "title": "Create Custom Checkout And Sign Up Forms",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109267-create-custom-checkout-and-sign-up-forms"
+   },
+   {
+    "title": "Install User Consent Tools (GDPR) - Dashboard Installer",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109094-install-user-consent-tools-gdpr-dashboard-installer"
+   }
+  ],
+  "error": null,
+  "latency_s": 1.68
+ },
+ {
+  "id": 12,
+  "true_category": "how_to",
+  "category": "how_to",
+  "expect": "answer",
+  "action": "answer",
+  "kb_status": "answered",
+  "draft_ok": true,
+  "reply": "To edit the main navigation menu on your Brilliant Directories site, go to **Design Settings \u2192 Main Menu Design** and adjust the menu\u2019s style and items there. The menu\u2019s structure\u2014its name, location, CSS, and active status\u2014is defined in the **API Reference \u2192 Menus** endpoint. You can also hide the menu on a specific page via the **Page Details / Page Options** tabs by selecting \u201cHide Top Header Menu\u201d or \u201cHide Main Menu.\u201d",
+  "summary": "Guide to edit main navigation menu via Design Settings",
+  "risk": "low",
+  "sources": [
+   {
+    "title": "Webpage Builder: Page Details Tab & Page Options Tab",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047142-webpage-builder-page-details-tab-page-options-tab"
+   },
+   {
+    "title": "Settings \u00bb Design Settings Index",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000043606-settings-design-settings-index"
+   },
+   {
+    "title": "How to Cancel a Brilliant Directories Subscription",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109071-how-to-cancel-a-brilliant-directories-subscription"
+   },
+   {
+    "title": "API Reference - Menus",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108110-api-reference-menus"
+   }
+  ],
+  "error": null,
+  "latency_s": 1.63
+ },
+ {
+  "id": 13,
+  "true_category": "troubleshooting",
+  "category": "troubleshooting",
+  "expect": "answer",
+  "action": "escalate",
+  "kb_status": "insufficient_evidence",
+  "draft_ok": true,
+  "reply": "Thank you for bringing this to our attention. I\u2019m sorry you\u2019re experiencing checkout issues. I\u2019ve forwarded your request to our support team, and someone will reach out to you shortly to gather more details and help resolve the problem.",
+  "summary": "Member payments failing, follow-up needed",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.66
+ },
+ {
+  "id": 14,
+  "true_category": "troubleshooting",
+  "category": "troubleshooting",
+  "expect": "answer",
+  "action": "escalate",
+  "kb_status": "insufficient_evidence",
+  "draft_ok": true,
+  "reply": "Thank you for reaching out. I\u2019m sorry to hear that the signup emails are not arriving. I\u2019ve forwarded this to a team member who will investigate and follow up with you shortly.",
+  "summary": "Members report missing signup emails; further investigation pending",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.55
+ },
+ {
+  "id": 15,
+  "true_category": "troubleshooting",
+  "category": "troubleshooting",
+  "expect": "answer",
+  "action": "escalate",
+  "kb_status": "insufficient_evidence",
+  "draft_ok": true,
+  "reply": "Thank you for reaching out. I\u2019m looking into why your updated logo isn\u2019t showing. A team member will get back to you shortly.",
+  "summary": "Will investigate logo update issue",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.5
+ },
+ {
+  "id": 16,
+  "true_category": "troubleshooting",
+  "category": "troubleshooting",
+  "expect": "answer",
+  "action": "answer",
+  "kb_status": "answered",
+  "draft_ok": true,
+  "reply": "Thank you for reaching out. Please double\u2011check that you are entering the correct admin email and password\u2014make sure the Caps Lock key is off and that there are no extra spaces. If you\u2019re still seeing the \u2018invalid password\u2019 message, try using the password reset option available on the login page. If the issue persists, one of our team members will follow up shortly to assist you further.\n",
+  "summary": "Suggest verifying credentials and possibly resetting password",
+  "risk": "low",
+  "sources": [
+   {
+    "title": "Admin Login",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000028835-admin-login"
+   },
+   {
+    "title": "Account Dashboard \u00bb Login Settings",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109947-account-dashboard-login-settings"
+   },
+   {
+    "title": "Facebook Login Add-On",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000036273-facebook-login-add-on"
+   }
+  ],
+  "error": null,
+  "latency_s": 1.63
+ },
+ {
+  "id": 17,
+  "true_category": "troubleshooting",
+  "category": "troubleshooting",
+  "expect": "answer",
+  "action": "answer",
+  "kb_status": "answered",
+  "draft_ok": true,
+  "reply": "Hi,\nIt appears that if a member\u2019s Short Description and About fields are both empty, the search result card will show no text snippet. Try adding a brief description in either field and run the search again. If the issue persists, let us know and we\u2019ll investigate further.\nThanks!",
+  "summary": "Guide user to fill Short Description or About to improve search results",
+  "risk": "low",
+  "sources": [
+   {
+    "title": "How to Display Additional Member Information in the Member Search Results (Position, Top Category & Sub Categories)",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000082071-how-to-display-additional-member-information-in-the-member-search-results-position-top-category-s"
+   }
+  ],
+  "error": null,
+  "latency_s": 1.38
+ },
+ {
+  "id": 18,
+  "true_category": "troubleshooting",
+  "category": "troubleshooting",
+  "expect": "answer",
+  "action": "answer",
+  "kb_status": "answered",
+  "draft_ok": true,
+  "reply": "It looks like the image files have been deleted or renamed while the site is still pointing to their old paths. Please check your Brand Images, Homepage Settings, Banner Ads, and Web Pages for any references to the missing files, and either restore the files or update the references to the correct ones.\n\nIf you need further assistance, a team member will follow up.",
+  "summary": "Images broken due to deleted/renamed files still referenced.",
+  "risk": "low",
+  "sources": [
+   {
+    "title": "How to Delete Images & Files from the Media Manager",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047891-how-to-delete-images-files-from-the-media-manager"
+   },
+   {
+    "title": "How to Rename Images & Files from the Media Manager",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047933-how-to-rename-images-files-from-the-media-manager"
+   },
+   {
+    "title": "Import Post Images - Dashboard Installer",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109080-import-post-images-dashboard-installer"
+   },
+   {
+    "title": "Creating a Folder in Media Manager",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000052779-creating-a-folder-in-media-manager"
+   }
+  ],
+  "error": null,
+  "latency_s": 1.33
+ },
+ {
+  "id": 19,
+  "true_category": "troubleshooting",
+  "category": "troubleshooting",
+  "expect": "answer",
+  "action": "escalate",
+  "kb_status": "insufficient_evidence",
+  "draft_ok": true,
+  "reply": "Thank you for reaching out. I\u2019m sorry you\u2019re experiencing slow performance on your site. I\u2019ll forward this to a team member who will follow up with you shortly.",
+  "summary": "No knowledge available, will forward to team",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.64
+ },
+ {
+  "id": 20,
+  "true_category": "troubleshooting",
+  "category": "troubleshooting",
+  "expect": "answer",
+  "action": "answer",
+  "kb_status": "answered",
+  "draft_ok": true,
+  "reply": "Hi,\nThe issue often occurs when a custom form includes the new Google\u202freCAPTCHA field. Please make sure your site is running the latest software version (updated on 12/31/21) or remove/adjust the reCAPTCHA field. After updating or adjusting, the form should submit correctly.\nThank you!",
+  "summary": "Check site version and reCAPTCHA settings",
+  "risk": "low",
+  "sources": [
+   {
+    "title": "Member Signups - Errors and Notifications",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000013336-member-signups-errors-and-notifications"
+   },
+   {
+    "title": "12/31/21 - Software Updates",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000084681-12-31-21-software-updates"
+   }
+  ],
+  "error": null,
+  "latency_s": 1.84
+ },
+ {
+  "id": 21,
+  "true_category": "troubleshooting",
+  "category": "troubleshooting",
+  "expect": "answer",
+  "action": "answer",
+  "kb_status": "answered",
+  "draft_ok": true,
+  "reply": "Hi,\n\nThank you for reaching out. Please double\u2011check that your domain\u2019s DNS A/CNAME records point to the correct server. Next, go to Settings \u25ba Domain Manager \u25ba SSL and note the exact warning you see (e.g., expired certificate, wrong hostname, etc.). If the site loads but the browser shows a certificate error, include the hostname and the SSL warning in your next message.\n\nIf after verifying the DNS your SSL warning persists, let us know the domain name, site ID, and the error message you see, and we\u2019ll investigate further.\n\nBest regards,\nSupport Team",
+  "summary": "Guide user to confirm DNS and SSL settings",
+  "risk": "low",
+  "sources": [
+   {
+    "title": "Settings \u00bb Domain Manager \u00bb SSL",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090590-settings-domain-manager-ssl"
+   },
+   {
+    "title": "Errors Connecting to MAIN DATABASE OR WEBSITE DATABASE",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000070212-errors-connecting-to-main-database-or-website-database"
+   },
+   {
+    "title": "Google Maps Issues: Index",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097715-google-maps-issues-index"
+   },
+   {
+    "title": "How to Connect a Domain to a Brilliant Directories Website",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019271-how-to-connect-a-domain-to-a-brilliant-directories-website"
+   },
+   {
+    "title": "Admin Dashboard Modules",
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000049125-admin-dashboard-modules"
+   }
+  ],
+  "error": null,
+  "latency_s": 2.82
+ },
+ {
+  "id": 22,
+  "true_category": "troubleshooting",
+  "category": "troubleshooting",
+  "expect": "escalate",
+  "action": "escalate",
+  "kb_status": "insufficient_evidence",
+  "draft_ok": true,
+  "reply": "Thank you for bringing this to our attention. I\u2019ve escalated the issue to our billing team, and they will review your account and get back to you shortly. We appreciate your patience.",
+  "summary": "Acknowledgment and escalation of double charge claim",
+  "risk": "medium",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.6
+ },
+ {
+  "id": 23,
+  "true_category": "project_request",
+  "category": "project_request",
+  "expect": "escalate",
+  "action": "escalate",
+  "kb_status": null,
+  "draft_ok": true,
+  "reply": "Thank you for reaching out about the booking calendar feature. Our team will review your request and follow up with you shortly.",
+  "summary": "Acknowledged booking calendar request",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.64
+ },
+ {
+  "id": 24,
+  "true_category": "project_request",
+  "category": "project_request",
+  "expect": "escalate",
+  "action": "escalate",
+  "kb_status": null,
+  "draft_ok": true,
+  "reply": "Thank you for reaching out about a mobile app version of your directory. Our team will review your request and get back to you shortly with next steps.",
+  "summary": "Acknowledge request and offer follow\u2011up",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.53
+ },
+ {
+  "id": 25,
+  "true_category": "project_request",
+  "category": "quote_request",
+  "expect": "escalate",
+  "action": "escalate",
+  "kb_status": null,
+  "draft_ok": true,
+  "reply": "Thank you for your suggestion! Our team will review your request for price and location filters and get back to you shortly.",
+  "summary": "Requested search filters not covered in current knowledge",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.59
+ },
+ {
+  "id": 26,
+  "true_category": "project_request",
+  "category": "project_request",
+  "expect": "escalate",
+  "action": "escalate",
+  "kb_status": null,
+  "draft_ok": true,
+  "reply": "Thank you for reaching out. I\u2019ll forward your question to a team member who can look into multilingual support for you.",
+  "summary": "No information available about multilingual support; forwarding to team.",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.61
+ },
+ {
+  "id": 27,
+  "true_category": "project_request",
+  "category": "project_request",
+  "expect": "escalate",
+  "action": "escalate",
+  "kb_status": null,
+  "draft_ok": true,
+  "reply": "Hello,\n\nThank you for reaching out. I\u2019m forwarding your request to our team, and one of our specialists will follow up shortly to discuss connecting your directory to HubSpot.\n\nBest regards,\nSupport Team",
+  "summary": "Connect directory to HubSpot request",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.89
+ },
+ {
+  "id": 28,
+  "true_category": "project_request",
+  "category": "project_request",
+  "expect": "escalate",
+  "action": "escalate",
+  "kb_status": null,
+  "draft_ok": true,
+  "reply": "Thank you for reaching out about adding an AI assistant. A team member will review your request and get back to you shortly.",
+  "summary": "Will follow up on adding AI assistant",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.64
+ },
+ {
+  "id": 29,
+  "true_category": "refund_cancel",
+  "category": "refund_cancel",
+  "expect": "escalate",
+  "action": "escalate",
+  "kb_status": null,
+  "draft_ok": true,
+  "reply": "Thank you for reaching out. I\u2019ve forwarded your cancellation request to our support team, and they will follow up with you shortly.",
+  "summary": "Inform the user that a team member will look into the cancellation request",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 1.66
+ },
+ {
+  "id": 30,
+  "true_category": "refund_cancel",
+  "category": "refund_cancel",
+  "expect": "escalate",
+  "action": "escalate",
+  "kb_status": null,
+  "draft_ok": true,
+  "reply": "Thank you for reaching out. I\u2019ve forwarded your refund request to a member of our team who will review it and get back to you shortly.",
+  "summary": "Acknowledged refund request and will forward to a team member",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.64
+ },
+ {
+  "id": 31,
+  "true_category": "refund_cancel",
+  "category": "refund_cancel",
+  "expect": "escalate",
+  "action": "escalate",
+  "kb_status": null,
+  "draft_ok": true,
+  "reply": "Thank you for reaching out. I\u2019ll check what happens to your data when switching to a cheaper plan and get back to you shortly. If you have any further questions, feel free to let me know.",
+  "summary": "Need to check data handling for plan downgrade",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.81
+ },
+ {
+  "id": 32,
+  "true_category": "refund_cancel",
+  "category": "refund_cancel",
+  "expect": "escalate",
+  "action": "escalate",
+  "kb_status": null,
+  "draft_ok": true,
+  "reply": "Thank you for reaching out. A team member will follow up with you shortly to discuss next steps and confirm the deletion of your data.",
+  "summary": "Acknowledged request for cancellation and data deletion",
+  "risk": "medium",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.59
+ },
+ {
+  "id": 33,
+  "true_category": "refund_cancel",
+  "category": "refund_cancel",
+  "expect": "escalate",
+  "action": "escalate",
+  "kb_status": null,
+  "draft_ok": true,
+  "reply": "Thank you for reaching out. I\u2019ve forwarded your request to our support team, and a member will follow up with you shortly regarding the refund.",
+  "summary": "Informing customer that a team member will follow up on refund request",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.65
+ },
+ {
+  "id": 34,
+  "true_category": "refund_cancel",
+  "category": "refund_cancel",
+  "expect": "escalate",
+  "action": "escalate",
+  "kb_status": null,
+  "draft_ok": true,
+  "reply": "Thank you for reaching out. I\u2019m sorry you purchased the wrong plan. I\u2019ll forward your request to our billing team, and they will follow up with you shortly.",
+  "summary": "Refund request due to incorrect plan purchase",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 1.87
+ },
+ {
+  "id": 35,
+  "true_category": "complaint",
+  "category": "complaint",
+  "expect": "escalate",
+  "action": "escalate",
+  "kb_status": null,
+  "draft_ok": true,
+  "reply": "Thank you for letting us know. We\u2019re sorry to hear the recent update has impacted your site. A member of our support team will look into this and get back to you shortly with an update.",
+  "summary": "Acknowledge issue and offer follow\u2011up",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.64
+ },
+ {
+  "id": 36,
+  "true_category": "complaint",
+  "category": "complaint",
+  "expect": "escalate",
+  "action": "escalate",
+  "kb_status": null,
+  "draft_ok": true,
+  "reply": "Thank you for reaching out. I apologize for the delay; a team member will review your ticket and get back to you shortly. We appreciate your patience.",
+  "summary": "Acknowledging delayed response",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.8
+ },
+ {
+  "id": 37,
+  "true_category": "complaint",
+  "category": "complaint",
+  "expect": "escalate",
+  "action": "escalate",
+  "kb_status": null,
+  "draft_ok": true,
+  "reply": "Thank you for reaching out. I\u2019m sorry to hear that your member list disappeared following the recent maintenance. I\u2019ve forwarded this issue to our technical team, and a support specialist will review it and get back to you shortly. If you have any additional details or screenshots that might help, please reply to this email.\n\nThank you for your patience.",
+  "summary": "Member list missing after maintenance",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.61
+ },
+ {
+  "id": 38,
+  "true_category": "complaint",
+  "category": "complaint",
+  "expect": "escalate",
+  "action": "escalate",
+  "kb_status": null,
+  "draft_ok": true,
+  "reply": "Thank you for bringing this to our attention. We\u2019re sorry to hear that the advertised feature isn\u2019t available as described. A member of our support team will review this issue and follow up with you shortly.",
+  "summary": "Acknowledged complaint about missing feature",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.53
+ },
+ {
+  "id": 39,
+  "true_category": "complaint",
+  "category": "complaint",
+  "expect": "escalate",
+  "action": "escalate",
+  "kb_status": null,
+  "draft_ok": true,
+  "reply": "I\u2019m sorry to hear about your experience. I\u2019ve logged your feedback and a team member will investigate the incident and follow up with you shortly. Thank you for bringing this to our attention.",
+  "summary": "Apology for rude agent and assurance of investigation",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.55
+ },
+ {
+  "id": 40,
+  "true_category": "complaint",
+  "category": "complaint",
+  "expect": "escalate",
+  "action": "escalate",
+  "kb_status": null,
+  "draft_ok": true,
+  "reply": "Thank you for bringing this to our attention. I\u2019m sorry to hear that your site was down for three hours without notice. I\u2019ve forwarded this issue to the appropriate team and will have someone reach out to you shortly to investigate the cause and discuss next steps.",
+  "summary": "Site downtime reported with no notification",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.55
+ },
+ {
+  "id": 41,
+  "true_category": "quote_request",
+  "category": "quote_request",
+  "expect": "escalate",
+  "action": "escalate",
+  "kb_status": null,
+  "draft_ok": true,
+  "reply": "Thank you for reaching out about a custom homepage design. Our team will review your request and get back to you shortly with more information.",
+  "summary": "Acknowledged custom homepage request",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.6
+ },
+ {
+  "id": 42,
+  "true_category": "quote_request",
+  "category": "quote_request",
+  "expect": "escalate",
+  "action": "escalate",
+  "kb_status": null,
+  "draft_ok": true,
+  "reply": "Thank you for reaching out. I\u2019ve forwarded your request to our pricing team and will get back to you shortly with details.",
+  "summary": "Pending migration cost inquiry",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.74
+ },
+ {
+  "id": 43,
+  "true_category": "quote_request",
+  "category": "quote_request",
+  "expect": "escalate",
+  "action": "escalate",
+  "kb_status": null,
+  "draft_ok": true,
+  "reply": "Thank you for your request. I don\u2019t have pricing information on hand, but a team member will follow up shortly.",
+  "summary": "No pricing info available",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.6
+ },
+ {
+  "id": 44,
+  "true_category": "quote_request",
+  "category": "quote_request",
+  "expect": "escalate",
+  "action": "escalate",
+  "kb_status": null,
+  "draft_ok": true,
+  "reply": "Thank you for reaching out. At this time we do not have the details needed to provide a quote. One of our team members will get back to you shortly with more information.\n\nBest regards,\nCustomer Support",
+  "summary": "No information available to determine customization cost or availability",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.53
+ },
+ {
+  "id": 45,
+  "true_category": "quote_request",
+  "category": "quote_request",
+  "expect": "escalate",
+  "action": "escalate",
+  "kb_status": null,
+  "draft_ok": true,
+  "reply": "Thank you for your inquiry. I\u2019m forwarding your question to our sales team; they\u2019ll get back to you shortly.",
+  "summary": "Acknowledges inquiry, no price info available, will forward to sales team",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.63
+ },
+ {
+  "id": 46,
+  "true_category": "follow_up",
+  "category": "follow_up",
+  "expect": "escalate",
+  "action": "escalate",
+  "kb_status": null,
+  "draft_ok": true,
+  "reply": "I\u2019m sorry, but I don\u2019t see the message from Monday. I\u2019ll have a team member look into this and get back to you shortly.",
+  "summary": "No prior message found, will follow up",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.59
+ },
+ {
+  "id": 47,
+  "true_category": "follow_up",
+  "category": "follow_up",
+  "expect": "escalate",
+  "action": "escalate",
+  "kb_status": null,
+  "draft_ok": true,
+  "reply": "Thank you for reaching out. We currently don\u2019t have any new updates on your ticket, but I\u2019ve forwarded your request to a team member who will review it and get back to you shortly.",
+  "summary": "No details available, will follow up",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.57
+ },
+ {
+  "id": 48,
+  "true_category": "follow_up",
+  "category": "quote_request",
+  "expect": "escalate",
+  "action": "escalate",
+  "kb_status": null,
+  "draft_ok": true,
+  "reply": "Thank you for reaching out. I\u2019ll pass this to our team and someone will follow up shortly.",
+  "summary": "Acknowledgement and promise to follow up",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.68
+ },
+ {
+  "id": 49,
+  "true_category": "follow_up",
+  "category": "follow_up",
+  "expect": "escalate",
+  "action": "escalate",
+  "kb_status": null,
+  "draft_ok": true,
+  "reply": "Thank you for letting us know. I\u2019m escalating this to a team member who will review the situation and get back to you shortly.",
+  "summary": "Payment issue persists; team will follow up",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.67
+ },
+ {
+  "id": 50,
+  "true_category": "follow_up",
+  "category": "follow_up",
+  "expect": "escalate",
+  "action": "escalate",
+  "kb_status": null,
+  "draft_ok": true,
+  "reply": "Thank you for reaching out. I haven't seen the files you mentioned. A team member will look into this and follow up with you shortly.",
+  "summary": "Inform that files not received and a team member will follow up",
+  "risk": "low",
+  "sources": [],
+  "error": null,
+  "latency_s": 0.77
+ }
+]
