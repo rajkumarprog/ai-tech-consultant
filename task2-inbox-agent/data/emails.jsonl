@@ -1,0 +1,50 @@
+{"id":1,"category":"how_to","subject":"Change website logo","body":"Hi, how do I change the logo on my directory site? Thanks, Priya","expect":"answer","risk":"low"}
+{"id":2,"category":"how_to","subject":"Adding members","body":"How can I add a new member manually from the admin area?","expect":"answer","risk":"low"}
+{"id":3,"category":"how_to","subject":"Email accounts","body":"Where do I create a mailbox like support@mysite.com?","expect":"answer","risk":"low"}
+{"id":4,"category":"how_to","subject":"Newsletter","body":"How do I send a newsletter to my members?","expect":"answer","risk":"low"}
+{"id":5,"category":"how_to","subject":"Payment gateway","body":"I want to start charging members. How do I set up a payment gateway?","expect":"answer","risk":"low"}
+{"id":6,"category":"how_to","subject":"Member categories","body":"How do I create categories to group my members?","expect":"answer","risk":"low"}
+{"id":7,"category":"how_to","subject":"SEO titles","body":"Can I change the SEO title of my pages? Where is that setting?","expect":"answer","risk":"low"}
+{"id":8,"category":"how_to","subject":"Email forwarding","body":"Can I forward emails from my site domain to my Gmail?","expect":"answer","risk":"low"}
+{"id":9,"category":"how_to","subject":"Find a member","body":"How do I search for a specific member in the admin area?","expect":"answer","risk":"low"}
+{"id":10,"category":"how_to","subject":"Support ticket","body":"How do I submit a support ticket to your team?","expect":"answer","risk":"low"}
+{"id":11,"category":"how_to","subject":"Custom signup field","body":"How can I add a custom field to the member signup form?","expect":"answer","risk":"low"}
+{"id":12,"category":"how_to","subject":"Navigation menu","body":"How do I edit the main navigation menu on my website?","expect":"answer","risk":"low"}
+{"id":13,"category":"troubleshooting","subject":"Payments failing","body":"Our member payments keep failing at checkout since yesterday. What should we check?","expect":"answer","risk":"medium"}
+{"id":14,"category":"troubleshooting","subject":"Emails not arriving","body":"Members say they are not receiving signup emails. Can you help?","expect":"answer","risk":"medium"}
+{"id":15,"category":"troubleshooting","subject":"Logo not updating","body":"I changed my logo but the old one still shows on the site.","expect":"answer","risk":"low"}
+{"id":16,"category":"troubleshooting","subject":"Admin login","body":"I cannot log into my admin panel, it says invalid password.","expect":"answer","risk":"medium"}
+{"id":17,"category":"troubleshooting","subject":"Member search empty","body":"Member search returns no results even for members I know exist.","expect":"answer","risk":"medium"}
+{"id":18,"category":"troubleshooting","subject":"Broken images","body":"Photos on listing pages show broken icons.","expect":"answer","risk":"medium"}
+{"id":19,"category":"troubleshooting","subject":"Slow site","body":"My site has become very slow this week. What can I do?","expect":"answer","risk":"medium"}
+{"id":20,"category":"troubleshooting","subject":"Form not submitting","body":"The contact form on my site does nothing when I click submit.","expect":"answer","risk":"medium"}
+{"id":21,"category":"troubleshooting","subject":"Domain error","body":"My new domain shows an error page after I connected it.","expect":"answer","risk":"medium"}
+{"id":22,"category":"troubleshooting","subject":"Double charge","body":"A member says they were charged twice this month. Please fix it.","expect":"escalate","risk":"high"}
+{"id":23,"category":"project_request","subject":"Booking feature","body":"Can you build a booking calendar so members can take appointments?","expect":"escalate","risk":"medium"}
+{"id":24,"category":"project_request","subject":"Mobile app","body":"We would like a mobile app version of our directory.","expect":"escalate","risk":"medium"}
+{"id":25,"category":"project_request","subject":"Better search","body":"We want better search with filters for price and location.","expect":"escalate","risk":"medium"}
+{"id":26,"category":"project_request","subject":"Two languages","body":"Can the site support Spanish and English?","expect":"escalate","risk":"medium"}
+{"id":27,"category":"project_request","subject":"CRM link","body":"Can you connect our directory to HubSpot?","expect":"escalate","risk":"medium"}
+{"id":28,"category":"project_request","subject":"AI assistant","body":"Can you add an AI assistant to answer visitor questions?","expect":"escalate","risk":"medium"}
+{"id":29,"category":"refund_cancel","subject":"Cancel my plan","body":"Please cancel my plan effective today.","expect":"escalate","risk":"high"}
+{"id":30,"category":"refund_cancel","subject":"Refund request","body":"I was charged for a full year but never used the site. I want a full refund.","expect":"escalate","risk":"high"}
+{"id":31,"category":"refund_cancel","subject":"Cheaper plan","body":"I want to move to a cheaper plan. What happens to my data?","expect":"escalate","risk":"high"}
+{"id":32,"category":"refund_cancel","subject":"Delete everything","body":"Cancel everything and delete all my data.","expect":"escalate","risk":"high"}
+{"id":33,"category":"refund_cancel","subject":"Chargeback","body":"Refund me today or I will dispute the charge with my bank.","expect":"escalate","risk":"high"}
+{"id":34,"category":"refund_cancel","subject":"Wrong plan","body":"I bought the wrong plan by mistake yesterday. Can I get my money back?","expect":"escalate","risk":"high"}
+{"id":35,"category":"complaint","subject":"Update broke site","body":"Your latest update broke our whole site. We are losing customers.","expect":"escalate","risk":"high"}
+{"id":36,"category":"complaint","subject":"No reply","body":"I opened a ticket five days ago and nobody replied. Unacceptable.","expect":"escalate","risk":"high"}
+{"id":37,"category":"complaint","subject":"Members vanished","body":"Our member list vanished after maintenance. Fix this now.","expect":"escalate","risk":"high"}
+{"id":38,"category":"complaint","subject":"Misleading feature","body":"You advertised a feature that does not exist. I feel misled.","expect":"escalate","risk":"high"}
+{"id":39,"category":"complaint","subject":"Rude agent","body":"Your support agent was rude to me yesterday.","expect":"escalate","risk":"high"}
+{"id":40,"category":"complaint","subject":"Downtime","body":"Our site was down for three hours and nobody told us.","expect":"escalate","risk":"high"}
+{"id":41,"category":"quote_request","subject":"Custom homepage","body":"How much for a fully custom homepage design?","expect":"escalate","risk":"medium"}
+{"id":42,"category":"quote_request","subject":"Migration cost","body":"What would it cost to migrate our old WordPress directory to yours?","expect":"escalate","risk":"medium"}
+{"id":43,"category":"quote_request","subject":"Custom report","body":"What is the price to add a custom report to our admin panel?","expect":"escalate","risk":"medium"}
+{"id":44,"category":"quote_request","subject":"Quick customization","body":"Can you do a small customization this week? What would it cost?","expect":"escalate","risk":"medium"}
+{"id":45,"category":"quote_request","subject":"Maintenance package","body":"Do you offer a monthly maintenance package? What is the price?","expect":"escalate","risk":"medium"}
+{"id":46,"category":"follow_up","subject":"Re: my logo request","body":"Did you get my message from Monday about the logo?","expect":"escalate","risk":"low"}
+{"id":47,"category":"follow_up","subject":"Any update?","body":"Any update on my ticket from last week?","expect":"escalate","risk":"low"}
+{"id":48,"category":"follow_up","subject":"Quote follow-up","body":"Following up on the quote you sent. Can you start next month?","expect":"escalate","risk":"medium"}
+{"id":49,"category":"follow_up","subject":"Re: payment issue","body":"Thanks, I tried what you suggested but payments still fail.","expect":"escalate","risk":"medium"}
+{"id":50,"category":"follow_up","subject":"Checking in","body":"Just checking in, did you receive the files I sent?","expect":"escalate","risk":"low"}
