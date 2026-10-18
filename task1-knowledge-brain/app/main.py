@@ -1,3 +1,4 @@
+from .answer import answer_from_sources, llm_configured
 from .relevance import relevant_rows
 import os
 from pathlib import Path
@@ -102,7 +103,7 @@ def query(req: QueryRequest):
                 seen.add(r["url"])
                 sources.append({"title": r["title"], "url": r["url"]})
 
-        if not os.getenv("ANTHROPIC_API_KEY"):
+        if not llm_configured():
             return {
                 "status": "retrieval_only",
                 "answer": None,
@@ -112,7 +113,7 @@ def query(req: QueryRequest):
             }
 
         try:
-            answer = ask_claude(req.question, good)
+            answer = answer_from_sources(req.question, good)
         except Exception as exc:
             return {
                 "status": "model_error",
