@@ -1,0 +1,3 @@
+ts,task,provider,model,latency_ms,input_tokens,output_tokens,ok
+2026-10-18 15:16:54,draft,groq,llama-3.3-70b-versatile,1704,0,0,False
+2026-10-18 15:18:54,draft,groq,openai/gpt-oss-120b,989,214,246,True
