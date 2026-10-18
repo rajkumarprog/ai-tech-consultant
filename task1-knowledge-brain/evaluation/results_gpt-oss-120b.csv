@@ -1,0 +1,25 @@
+id,expect,status,source_hit,passed,latency_ms,q
+KB-01,answer,answered,True,True,1128,How do I add members manually from the admin?
+KB-02,answer,answered,True,True,844,How do I create an email account for my domain?
+KB-03,answer,insufficient_evidence,False,False,49,Can I forward emails to my Gmail?
+KB-04,answer,answered,False,False,1343,How do I send a newsletter to members?
+KB-05,answer,answered,True,True,1228,How do I add categories manually?
+KB-06,answer,answered,True,True,650,How do I submit a support ticket?
+KB-07,answer,answered,True,True,856,How do I search for members in the admin?
+KB-08,answer,answered,True,True,846,What are SEO variables?
+KB-09,answer,answered,True,True,889,Can I send a mass email campaign?
+KB-10,answer,answered,True,True,1097,How do I add custom fields to member forms?
+KB-11,answer,insufficient_evidence,False,False,46,What are shortcodes and how do I use them?
+KB-12,answer,answered,True,True,953,How do I set up a payment gateway?
+KB-13,answer,answered,True,True,917,How do I change the website logo?
+KB-14,answer,insufficient_evidence,False,False,56,How do I edit the navigation menu?
+KB-15,answer,answered,True,True,1263,How do I connect my domain name?
+KB-16,answer,answered,True,True,1453,How do I change my email MX records?
+KB-17,refuse,insufficient_evidence,False,True,66,What is the capital of France?
+KB-18,refuse,insufficient_evidence,False,True,42,Who won the cricket world cup?
+KB-19,refuse,insufficient_evidence,False,True,41,Give me a recipe for pasta
+KB-20,refuse,insufficient_evidence,False,True,35,How tall is Mount Everest?
+KB-21,refuse,insufficient_evidence,False,True,53,What is the weather today?
+KB-22,refuse,insufficient_evidence,False,True,42,Who is the CEO of Google?
+KB-23,refuse,insufficient_evidence,False,True,33,How do I reset my Netflix password?
+KB-24,refuse,insufficient_evidence,False,True,539,What is 17 times 23?

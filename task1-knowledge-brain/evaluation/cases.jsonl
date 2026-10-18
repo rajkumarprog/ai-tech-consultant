@@ -1,0 +1,24 @@
+{"id":"KB-01","q":"How do I add members manually from the admin?","expect":"answer","keys":["member"]}
+{"id":"KB-02","q":"How do I create an email account for my domain?","expect":"answer","keys":["email"]}
+{"id":"KB-03","q":"Can I forward emails to my Gmail?","expect":"answer","keys":["forwarder"]}
+{"id":"KB-04","q":"How do I send a newsletter to members?","expect":"answer","keys":["newsletter"]}
+{"id":"KB-05","q":"How do I add categories manually?","expect":"answer","keys":["categor"]}
+{"id":"KB-06","q":"How do I submit a support ticket?","expect":"answer","keys":["ticket"]}
+{"id":"KB-07","q":"How do I search for members in the admin?","expect":"answer","keys":["member"]}
+{"id":"KB-08","q":"What are SEO variables?","expect":"answer","keys":["seo"]}
+{"id":"KB-09","q":"Can I send a mass email campaign?","expect":"answer","keys":["mass","email"]}
+{"id":"KB-10","q":"How do I add custom fields to member forms?","expect":"answer","keys":["custom","field"]}
+{"id":"KB-11","q":"What are shortcodes and how do I use them?","expect":"answer","keys":["shortcode"]}
+{"id":"KB-12","q":"How do I set up a payment gateway?","expect":"answer","keys":["payment"]}
+{"id":"KB-13","q":"How do I change the website logo?","expect":"answer","keys":["logo"]}
+{"id":"KB-14","q":"How do I edit the navigation menu?","expect":"answer","keys":["menu"]}
+{"id":"KB-15","q":"How do I connect my domain name?","expect":"answer","keys":["domain"]}
+{"id":"KB-16","q":"How do I change my email MX records?","expect":"answer","keys":["mx"]}
+{"id":"KB-17","q":"What is the capital of France?","expect":"refuse","keys":[]}
+{"id":"KB-18","q":"Who won the cricket world cup?","expect":"refuse","keys":[]}
+{"id":"KB-19","q":"Give me a recipe for pasta","expect":"refuse","keys":[]}
+{"id":"KB-20","q":"How tall is Mount Everest?","expect":"refuse","keys":[]}
+{"id":"KB-21","q":"What is the weather today?","expect":"refuse","keys":[]}
+{"id":"KB-22","q":"Who is the CEO of Google?","expect":"refuse","keys":[]}
+{"id":"KB-23","q":"How do I reset my Netflix password?","expect":"refuse","keys":[]}
+{"id":"KB-24","q":"What is 17 times 23?","expect":"refuse","keys":[]}

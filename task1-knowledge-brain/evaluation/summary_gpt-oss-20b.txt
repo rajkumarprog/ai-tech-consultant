@@ -1,0 +1,5 @@
+[gpt-oss-20b] answerable passed 12/16 | refusals correct 8/8 | median latency 653.5 ms
+FAIL KB-03 answer insufficient_evidence | Can I forward emails to my Gmail?
+FAIL KB-04 answer answered | How do I send a newsletter to members?
+FAIL KB-11 answer insufficient_evidence | What are shortcodes and how do I use them?
+FAIL KB-14 answer insufficient_evidence | How do I edit the navigation menu?
