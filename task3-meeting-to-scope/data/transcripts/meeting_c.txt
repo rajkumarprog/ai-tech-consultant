@@ -1,0 +1,19 @@
+Meeting C: Follow-up to Meeting A | Project: CityPros Directory | Date: 2026-10-15
+Participants: Dev (consultant), Maria (client, owner)
+
+Dev: Thanks for the changes you mentioned. Let us go through them.
+Maria: First, the newsletter. Drop it. I will use Mailchimp instead.
+Dev: Understood, we remove the newsletter from the scope.
+Maria: Second, search. Along with category and city, I also want a price range filter.
+Dev: Noted, that is an addition to the filters.
+Maria: Third, I want the site in Spanish and English. Lots of our customers speak Spanish.
+Dev: That is new work. Do you want full translation of all pages, or just the homepage and search?
+Maria: Everything, eventually. Start with the homepage and search.
+Dev: Okay. Anything about timing?
+Maria: I need the mobile fix earlier. Mid-November instead of end of November. A big event is coming.
+Dev: And the member adding is unchanged?
+Maria: Unchanged, same as before.
+Dev: Budget still three thousand?
+Maria: Yes, and I do not want to go over it.
+Dev: We will flag anything beyond the original scope as a separate quote.
+Maria: Fine.

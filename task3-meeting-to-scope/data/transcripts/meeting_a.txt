@@ -1,0 +1,25 @@
+Meeting A: Website improvements | Project: CityPros Directory | Date: 2026-10-01
+Participants: Dev (consultant), Maria (client, owner)
+
+Dev: Thanks for joining, Maria. Tell me what is not working on the site.
+Maria: Honestly, search is not great. People cannot find the right plumber or electrician quickly. I want it better.
+Dev: Better how? What do they do today when they search?
+Maria: They type a service and get a long list. I want them to narrow it down by category and by city.
+Dev: Is the list slow, or just too long?
+Maria: Just too long. Speed is fine.
+Dev: Okay. What else?
+Maria: Adding members. Right now I add every new business by hand from the admin, about thirty a week. It takes hours.
+Dev: Do members sign up themselves, or only you add them?
+Maria: Mostly I add them. Some sign up on their own.
+Dev: Got it. Anything about email?
+Maria: Yes, I want to send a newsletter to all members once a month.
+Dev: To members who opted in?
+Maria: Yes, only opted-in members.
+Dev: What about mobile?
+Maria: The homepage looks terrible on phones. The menu overlaps the logo. Most of our visitors are on phones.
+Dev: Anything else, like payments or languages?
+Maria: Not now. Maybe a logo refresh later, but that is not part of this.
+Dev: Budget and timing?
+Maria: Around three thousand dollars, and I would like it done by the end of November.
+Dev: I will check what the platform already supports before we quote custom work. You will get a scope and an estimate.
+Maria: Great. Please do not promise anything you cannot deliver.
