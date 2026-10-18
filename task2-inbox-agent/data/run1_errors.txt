@@ -1,0 +1,2 @@
+RUN 1 failure types:
+32 | LLMUnavailable: HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.groq.com/
