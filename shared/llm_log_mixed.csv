@@ -1,0 +1,86 @@
+ts,task,provider,model,latency_ms,input_tokens,output_tokens,ok
+2026-10-18 15:28:01,kb_answer,groq,openai/gpt-oss-120b,1002,466,285,True
+2026-10-18 15:28:02,draft,groq,openai/gpt-oss-120b,1,935,325,220,True,
+2026-10-18 15:28:05,kb_answer,groq,openai/gpt-oss-120b,1083,592,215,True
+2026-10-18 15:28:06,draft,groq,openai/gpt-oss-120b,1,752,255,160,True,
+2026-10-18 15:28:08,kb_answer,groq,openai/gpt-oss-120b,1041,595,305,True
+2026-10-18 15:28:09,draft,groq,openai/gpt-oss-120b,1,915,381,229,True,
+2026-10-18 15:28:12,kb_answer,groq,openai/gpt-oss-120b,1025,488,248,True
+2026-10-18 15:28:13,draft,groq,openai/gpt-oss-120b,1,1058,350,273,True,
+2026-10-18 15:28:15,kb_answer,groq,openai/gpt-oss-120b,992,549,264,True
+2026-10-18 15:28:16,draft,groq,openai/gpt-oss-120b,1,778,357,235,True,
+2026-10-18 15:28:19,kb_answer,groq,openai/gpt-oss-120b,1289,633,465,True
+2026-10-18 15:28:20,draft,groq,openai/gpt-oss-120b,1,847,510,257,True,
+2026-10-18 15:28:22,kb_answer,groq,openai/gpt-oss-120b,987,563,321,True
+2026-10-18 15:28:23,draft,groq,openai/gpt-oss-120b,1,839,368,263,True,
+2026-10-18 15:28:25,kb_answer,groq,openai/gpt-oss-120b,546,543,102,True
+2026-10-18 15:28:26,draft,groq,openai/gpt-oss-120b,1,815,207,164,True,
+2026-10-18 15:28:28,kb_answer,groq,openai/gpt-oss-120b,54,0,0,False
+2026-10-18 15:28:28,draft,groq,openai/gpt-oss-120b,1,787,209,179,True,
+2026-10-18 15:28:30,kb_answer,groq,openai/gpt-oss-120b,60,0,0,False
+2026-10-18 15:28:31,draft,groq,openai/gpt-oss-120b,1,840,206,178,True,
+2026-10-18 15:28:32,kb_answer,groq,openai/gpt-oss-120b,62,0,0,False
+2026-10-18 15:28:33,draft,groq,openai/gpt-oss-120b,1,64,0,0,False,HTTPStatusError 429: Client error '429 Too Many Requests' for url 'https://api.groq.com/openai/v1/cha
+2026-10-18 15:28:34,draft,groq,openai/gpt-oss-120b,2,835,209,200,True,
+2026-10-18 15:28:36,kb_answer,groq,openai/gpt-oss-120b,54,0,0,False
+2026-10-18 15:28:36,draft,groq,openai/gpt-oss-120b,1,56,0,0,False,HTTPStatusError 429: Client error '429 Too Many Requests' for url 'https://api.groq.com/openai/v1/cha
+2026-10-18 15:28:38,draft,groq,openai/gpt-oss-120b,2,770,207,141,True,
+2026-10-18 15:28:41,draft,groq,openai/gpt-oss-120b,1,1807,209,144,True,
+2026-10-18 15:28:43,draft,groq,openai/gpt-oss-120b,1,656,208,164,True,
+2026-10-18 15:28:46,draft,groq,openai/gpt-oss-120b,1,814,209,144,True,
+2026-10-18 15:28:47,kb_answer,groq,openai/gpt-oss-120b,98,0,0,False
+2026-10-18 15:28:48,draft,groq,openai/gpt-oss-120b,1,873,207,208,True,
+2026-10-18 15:28:50,kb_answer,groq,openai/gpt-oss-120b,70,0,0,False
+2026-10-18 15:28:50,draft,groq,openai/gpt-oss-120b,1,58,0,0,False,HTTPStatusError 429: Client error '429 Too Many Requests' for url 'https://api.groq.com/openai/v1/cha
+2026-10-18 15:28:52,draft,groq,openai/gpt-oss-120b,2,805,207,158,True,
+2026-10-18 15:28:54,kb_answer,groq,openai/gpt-oss-120b,189,0,0,False
+2026-10-18 15:28:54,draft,groq,openai/gpt-oss-120b,1,563,202,133,True,
+2026-10-18 15:28:56,draft,groq,openai/gpt-oss-120b,1,729,208,139,True,
+2026-10-18 15:28:58,kb_answer,groq,openai/gpt-oss-120b,62,0,0,False
+2026-10-18 15:28:59,draft,groq,openai/gpt-oss-120b,1,633,208,160,True,
+2026-10-18 15:29:00,kb_answer,groq,openai/gpt-oss-120b,63,0,0,False
+2026-10-18 15:29:00,draft,groq,openai/gpt-oss-120b,1,57,0,0,False,HTTPStatusError 429: Client error '429 Too Many Requests' for url 'https://api.groq.com/openai/v1/cha
+2026-10-18 15:29:02,draft,groq,openai/gpt-oss-120b,2,881,206,168,True,
+2026-10-18 15:29:04,draft,groq,openai/gpt-oss-120b,1,611,208,158,True,
+2026-10-18 15:29:06,draft,groq,openai/gpt-oss-120b,1,74,0,0,False,HTTPStatusError 429: Client error '429 Too Many Requests' for url 'https://api.groq.com/openai/v1/cha
+2026-10-18 15:29:08,draft,groq,openai/gpt-oss-120b,2,852,207,165,True,
+2026-10-18 15:29:10,draft,groq,openai/gpt-oss-120b,1,650,206,128,True,
+2026-10-18 15:29:12,draft,groq,openai/gpt-oss-120b,1,950,206,230,True,
+2026-10-18 15:29:14,draft,groq,openai/gpt-oss-120b,1,72,0,0,False,HTTPStatusError 429: Client error '429 Too Many Requests' for url 'https://api.groq.com/openai/v1/cha
+2026-10-18 15:29:16,draft,groq,openai/gpt-oss-120b,2,603,203,154,True,
+2026-10-18 15:29:17,draft,groq,openai/gpt-oss-120b,1,69,0,0,False,HTTPStatusError 429: Client error '429 Too Many Requests' for url 'https://api.groq.com/openai/v1/cha
+2026-10-18 15:29:19,draft,groq,openai/gpt-oss-120b,2,697,204,108,True,
+2026-10-18 15:29:21,draft,groq,openai/gpt-oss-120b,1,591,206,146,True,
+2026-10-18 15:29:23,draft,groq,openai/gpt-oss-120b,1,672,203,181,True,
+2026-10-18 15:29:25,draft,groq,openai/gpt-oss-120b,1,79,0,0,False,HTTPStatusError 429: Client error '429 Too Many Requests' for url 'https://api.groq.com/openai/v1/cha
+2026-10-18 15:29:27,draft,groq,openai/gpt-oss-120b,2,981,214,210,True,
+2026-10-18 15:29:29,draft,groq,openai/gpt-oss-120b,1,807,211,164,True,
+2026-10-18 15:29:31,draft,groq,openai/gpt-oss-120b,1,58,0,0,False,HTTPStatusError 429: Client error '429 Too Many Requests' for url 'https://api.groq.com/openai/v1/cha
+2026-10-18 15:29:32,draft,groq,openai/gpt-oss-120b,2,885,203,204,True,
+2026-10-18 15:29:34,draft,groq,openai/gpt-oss-120b,1,57,0,0,False,HTTPStatusError 429: Client error '429 Too Many Requests' for url 'https://api.groq.com/openai/v1/cha
+2026-10-18 15:29:36,draft,groq,openai/gpt-oss-120b,2,730,208,206,True,
+2026-10-18 15:29:37,draft,groq,openai/gpt-oss-120b,1,63,0,0,False,HTTPStatusError 429: Client error '429 Too Many Requests' for url 'https://api.groq.com/openai/v1/cha
+2026-10-18 15:29:39,draft,groq,openai/gpt-oss-120b,2,754,211,227,True,
+2026-10-18 15:29:41,draft,groq,openai/gpt-oss-120b,1,80,0,0,False,HTTPStatusError 429: Client error '429 Too Many Requests' for url 'https://api.groq.com/openai/v1/cha
+2026-10-18 15:29:42,draft,groq,openai/gpt-oss-120b,2,844,208,179,True,
+2026-10-18 15:29:45,draft,groq,openai/gpt-oss-120b,1,653,208,172,True,
+2026-10-18 15:29:47,draft,groq,openai/gpt-oss-120b,1,721,205,145,True,
+2026-10-18 15:29:48,draft,groq,openai/gpt-oss-120b,1,63,0,0,False,HTTPStatusError 429: Client error '429 Too Many Requests' for url 'https://api.groq.com/openai/v1/cha
+2026-10-18 15:29:50,draft,groq,openai/gpt-oss-120b,2,789,209,150,True,
+2026-10-18 15:29:52,draft,groq,openai/gpt-oss-120b,1,820,204,160,True,
+2026-10-18 15:29:54,draft,groq,openai/gpt-oss-120b,1,70,0,0,False,HTTPStatusError 429: Client error '429 Too Many Requests' for url 'https://api.groq.com/openai/v1/cha
+2026-10-18 15:29:56,draft,groq,openai/gpt-oss-120b,2,717,206,138,True,
+2026-10-18 15:29:58,draft,groq,openai/gpt-oss-120b,1,873,204,166,True,
+2026-10-18 15:30:01,draft,groq,openai/gpt-oss-120b,1,875,209,195,True,
+2026-10-18 15:30:02,draft,groq,openai/gpt-oss-120b,1,63,0,0,False,HTTPStatusError 429: Client error '429 Too Many Requests' for url 'https://api.groq.com/openai/v1/cha
+2026-10-18 15:30:04,draft,groq,openai/gpt-oss-120b,2,743,209,191,True,
+2026-10-18 15:30:06,draft,groq,openai/gpt-oss-120b,1,667,209,158,True,
+2026-10-18 15:30:08,draft,groq,openai/gpt-oss-120b,1,57,0,0,False,HTTPStatusError 429: Client error '429 Too Many Requests' for url 'https://api.groq.com/openai/v1/cha
+2026-10-18 15:30:10,draft,groq,openai/gpt-oss-120b,2,801,208,148,True,
+2026-10-18 15:30:12,draft,groq,openai/gpt-oss-120b,1,565,209,132,True,
+2026-10-18 15:30:15,draft,groq,openai/gpt-oss-120b,1,657,204,147,True,
+2026-10-18 15:30:16,draft,groq,openai/gpt-oss-120b,1,61,0,0,False,HTTPStatusError 429: Client error '429 Too Many Requests' for url 'https://api.groq.com/openai/v1/cha
+2026-10-18 15:30:18,draft,groq,openai/gpt-oss-120b,2,965,210,230,True,
+2026-10-18 15:30:20,draft,groq,openai/gpt-oss-120b,1,57,0,0,False,HTTPStatusError 429: Client error '429 Too Many Requests' for url 'https://api.groq.com/openai/v1/cha
+2026-10-18 15:30:22,draft,groq,openai/gpt-oss-120b,2,872,209,195,True,
+2026-10-18 15:30:24,draft,groq,openai/gpt-oss-120b,1,543,207,124,True,
