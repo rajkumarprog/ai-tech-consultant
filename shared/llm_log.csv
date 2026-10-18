@@ -91,3 +91,5 @@ ts,task,provider,model,attempt,latency_ms,input_tokens,output_tokens,ok,error
 2026-10-18 16:03:50,draft,groq,openai/gpt-oss-120b,1,884,209,147,True,
 2026-10-18 16:03:52,draft,groq,openai/gpt-oss-120b,1,73,0,0,False,HTTPStatusError 429: Client error '429 Too Many Requests' for url 'https://api.groq.com/openai/v1/cha
 2026-10-18 16:03:55,draft,groq,openai/gpt-oss-120b,2,1354,207,203,True,
+2026-10-18 16:18:52,extract,groq,openai/gpt-oss-120b,1,2713,594,1070,True,
+2026-10-18 16:18:56,extract,groq,openai/gpt-oss-120b,1,2818,492,1112,True,

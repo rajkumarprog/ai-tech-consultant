@@ -1,0 +1,70 @@
+{
+ "meeting": "meeting_c",
+ "prompt_version": "extract-v1",
+ "chunks": 1,
+ "requirements": [
+  {
+   "description": "Remove the newsletter feature; client will use Mailchimp instead.",
+   "quote": "First, the newsletter. Drop it. I will use Mailchimp instead.",
+   "status": "confirmed",
+   "action": "remove",
+   "id": "REQ-001",
+   "quote_verified": true
+  },
+  {
+   "description": "Add a price range filter to the search functionality, alongside category and city filters.",
+   "quote": "Second, search. Along with category and city, I also want a price range filter.",
+   "status": "confirmed",
+   "action": "add",
+   "id": "REQ-002",
+   "quote_verified": true
+  },
+  {
+   "description": "Provide a bilingual site in Spanish and English, translating all pages eventually, starting with the homepage and search pages.",
+   "quote": "Third, I want the site in Spanish and English. Lots of our customers speak Spanish.",
+   "status": "confirmed",
+   "action": "add",
+   "id": "REQ-003",
+   "quote_verified": true
+  },
+  {
+   "description": "Deliver the mobile fix by mid\u2011November 2026 instead of end of November.",
+   "quote": "I need the mobile fix earlier. Mid-November instead of end of November.",
+   "status": "confirmed",
+   "action": "change",
+   "id": "REQ-004",
+   "quote_verified": true
+  },
+  {
+   "description": "Keep member\u2011adding functionality unchanged from the previous specification.",
+   "quote": "Unchanged, same as before.",
+   "status": "confirmed",
+   "action": "keep",
+   "id": "REQ-005",
+   "quote_verified": true
+  },
+  {
+   "description": "Maintain the project budget at three thousand dollars and do not exceed it.",
+   "quote": "Yes, and I do not want to go over it.",
+   "status": "confirmed",
+   "action": "keep",
+   "id": "REQ-006",
+   "quote_verified": true
+  }
+ ],
+ "constraints": [
+  {
+   "type": "budget",
+   "value": "3000",
+   "quote": "Yes, and I do not want to go over it.",
+   "quote_verified": true
+  },
+  {
+   "type": "deadline",
+   "value": "mid-November 2026",
+   "quote": "I need the mobile fix earlier. Mid-November instead of end of November.",
+   "quote_verified": true
+  }
+ ],
+ "open_questions": []
+}

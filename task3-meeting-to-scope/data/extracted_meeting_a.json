@@ -1,0 +1,59 @@
+{
+ "meeting": "meeting_a",
+ "prompt_version": "extract-v1",
+ "chunks": 1,
+ "requirements": [
+  {
+   "description": "Add search filters allowing users to narrow results by category and city",
+   "quote": "I want them to narrow it down by category and by city.",
+   "status": "confirmed",
+   "action": "add",
+   "id": "REQ-001",
+   "quote_verified": true
+  },
+  {
+   "description": "Streamline the member addition process to reduce manual admin effort",
+   "quote": "Adding members. Right now I add every new business by hand from the admin, about thirty a week. It takes hours.",
+   "status": "confirmed",
+   "action": "add",
+   "id": "REQ-002",
+   "quote_verified": true
+  },
+  {
+   "description": "Implement a monthly newsletter that is sent only to members who have opted in",
+   "quote": "I want to send a newsletter to all members once a month.",
+   "status": "confirmed",
+   "action": "add",
+   "id": "REQ-003",
+   "quote_verified": true
+  },
+  {
+   "description": "Fix the mobile homepage layout so the menu does not overlap the logo and looks good on phones",
+   "quote": "The homepage looks terrible on phones. The menu overlaps the logo.",
+   "status": "confirmed",
+   "action": "add",
+   "id": "REQ-004",
+   "quote_verified": true
+  }
+ ],
+ "constraints": [
+  {
+   "type": "budget",
+   "value": "$3000",
+   "quote": "Around three thousand dollars",
+   "quote_verified": true
+  },
+  {
+   "type": "deadline",
+   "value": "end of November 2026",
+   "quote": "I would like it done by the end of November.",
+   "quote_verified": true
+  }
+ ],
+ "open_questions": [
+  "Do you prefer an automated bulk\u2011import tool for new members, a self\u2011service registration portal, or both?",
+  "How should the category hierarchy be defined for the search filters?",
+  "Which email service provider or system should be used to send the monthly newsletter?",
+  "Which platform/technology stack is the current site built on?"
+ ]
+}
