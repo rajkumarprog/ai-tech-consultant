@@ -1,0 +1,188 @@
+{
+ "meeting": "meeting_a",
+ "prompt_version": "estimate-v1",
+ "hourly_rate_placeholder": 40.0,
+ "currency": "USD",
+ "totals_hours": {
+  "low": 102.0,
+  "likely": 149.0,
+  "high": 199.0
+ },
+ "totals_cost": {
+  "low": 4080,
+  "likely": 5960,
+  "high": 7960
+ },
+ "client_budget": 3000.0,
+ "requirements": [
+  {
+   "id": "REQ-001",
+   "description": "Add search filters allowing users to narrow results by category and city",
+   "label": "needs_clarification",
+   "provisional": true,
+   "status": "estimated",
+   "tasks": [
+    {
+     "task": "Confirm platform capabilities and design filter UI/UX",
+     "low": 2.0,
+     "likely": 4.0,
+     "high": 6.0,
+     "assumption": "Platform has a basic search page and can be extended with UI components"
+    },
+    {
+     "task": "Implement front\u2011end filter controls (category and city dropdowns) and integrate them with the existing search form",
+     "low": 4.0,
+     "likely": 6.0,
+     "high": 8.0,
+     "assumption": "Front\u2011end framework allows adding new form fields without major refactor"
+    },
+    {
+     "task": "Extend back\u2011end search API to accept category and city parameters and modify the query accordingly",
+     "low": 6.0,
+     "likely": 10.0,
+     "high": 14.0,
+     "assumption": "Search logic is encapsulated in a service that can be updated"
+    },
+    {
+     "task": "Add or adjust database indexes for category and city fields to maintain query performance",
+     "low": 2.0,
+     "likely": 3.0,
+     "high": 5.0,
+     "assumption": "Database schema includes searchable fields for category and city"
+    },
+    {
+     "task": "Testing: unit tests for API changes, UI tests for filter behavior, and regression testing of overall search",
+     "low": 4.0,
+     "likely": 6.0,
+     "high": 8.0,
+     "assumption": "Automated test suite is in place and can be extended"
+    }
+   ]
+  },
+  {
+   "id": "REQ-002",
+   "description": "Streamline the member addition process to reduce manual admin effort",
+   "label": "needs_clarification",
+   "provisional": true,
+   "status": "estimated",
+   "tasks": [
+    {
+     "task": "Gather detailed requirements and design the streamlined member addition workflow (e.g., bulk CSV import, email invitation, self\u2011service signup)",
+     "low": 4.0,
+     "likely": 6.0,
+     "high": 8.0,
+     "assumption": "Stakeholders can provide a clear definition of the desired automation (bulk upload format, invitation triggers, etc.) within the planning session"
+    },
+    {
+     "task": "Develop backend service to process member CSV uploads: parsing, validation, duplicate handling, and database insertion",
+     "low": 12.0,
+     "likely": 16.0,
+     "high": 20.0,
+     "assumption": "The platform already has a Member entity and DB schema; only import logic needs to be added"
+    },
+    {
+     "task": "Create admin UI for CSV upload with progress indicator, error reporting, and preview of parsed records",
+     "low": 10.0,
+     "likely": 14.0,
+     "high": 18.0,
+     "assumption": "Existing admin panel framework can be extended without major redesign"
+    },
+    {
+     "task": "Implement email invitation workflow for newly added members (template creation, queuing, handling bounces)",
+     "low": 8.0,
+     "likely": 12.0,
+     "high": 16.0,
+     "assumption": "The platform has a working email service integration that can be reused"
+    },
+    {
+     "task": "Testing, QA, and documentation: unit tests, integration tests, user acceptance testing, and updating admin guides",
+     "low": 8.0,
+     "likely": 12.0,
+     "high": 16.0,
+     "assumption": "Test environment mirrors production and documentation standards are already defined"
+    }
+   ]
+  },
+  {
+   "id": "REQ-003",
+   "description": "Implement a monthly newsletter that is sent only to members who have opted in",
+   "label": "needs_clarification",
+   "provisional": true,
+   "status": "estimated",
+   "tasks": [
+    {
+     "task": "Add opt\u2011in flag to member profiles and expose it in the user settings UI",
+     "low": 4.0,
+     "likely": 6.0,
+     "high": 8.0,
+     "assumption": "Platform allows extending the user schema and customizing the settings page without core code changes."
+    },
+    {
+     "task": "Create an admin interface for drafting and scheduling the monthly newsletter content",
+     "low": 8.0,
+     "likely": 10.0,
+     "high": 12.0,
+     "assumption": "An existing CMS/admin panel can host custom forms/pages for newsletter authoring."
+    },
+    {
+     "task": "Implement a scheduled job that queries opted\u2011in members and sends the newsletter via the existing email service API",
+     "low": 10.0,
+     "likely": 14.0,
+     "high": 18.0,
+     "assumption": "The platform provides a cron\u2011like scheduler or background worker framework and has an integrated email service SDK."
+    },
+    {
+     "task": "Add unsubscribe handling (link in email updates opt\u2011in flag) and ensure GDPR/ CAN\u2011SPAM compliance",
+     "low": 6.0,
+     "likely": 8.0,
+     "high": 10.0,
+     "assumption": "Incoming link clicks can be routed to a lightweight endpoint that updates the user's opt\u2011in status."
+    },
+    {
+     "task": "Write unit/integration tests and perform manual QA of the end\u2011to\u2011end newsletter flow",
+     "low": 6.0,
+     "likely": 8.0,
+     "high": 10.0,
+     "assumption": "A test environment with representative member data is available for automated and manual testing."
+    }
+   ]
+  },
+  {
+   "id": "REQ-004",
+   "description": "Fix the mobile homepage layout so the menu does not overlap the logo and looks good on phones",
+   "label": "needs_clarification",
+   "provisional": true,
+   "status": "estimated",
+   "tasks": [
+    {
+     "task": "Investigate current mobile homepage markup and CSS to identify why the menu overlaps the logo",
+     "low": 2.0,
+     "likely": 3.0,
+     "high": 5.0,
+     "assumption": "The site uses standard HTML/CSS with a responsive framework (e.g., Bootstrap) and source files are accessible."
+    },
+    {
+     "task": "Implement CSS changes (media queries, z-index, padding/margin adjustments) to separate the menu from the logo on typical phone widths",
+     "low": 3.0,
+     "likely": 5.0,
+     "high": 8.0,
+     "assumption": "No custom JavaScript is required for the menu positioning; pure CSS fixes are sufficient."
+    },
+    {
+     "task": "Test the updated layout across a range of common device widths and browsers using emulators and real devices",
+     "low": 2.0,
+     "likely": 4.0,
+     "high": 6.0,
+     "assumption": "Testing can be performed with available emulator tools and a handful of physical devices."
+    },
+    {
+     "task": "Update any related documentation, commit changes, and perform a quick regression test of the homepage",
+     "low": 1.0,
+     "likely": 2.0,
+     "high": 3.0,
+     "assumption": "The deployment process is straightforward and does not require additional approvals."
+    }
+   ]
+  }
+ ]
+}

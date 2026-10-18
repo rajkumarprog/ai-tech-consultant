@@ -93,3 +93,7 @@ ts,task,provider,model,attempt,latency_ms,input_tokens,output_tokens,ok,error
 2026-10-18 16:03:55,draft,groq,openai/gpt-oss-120b,2,1354,207,203,True,
 2026-10-18 16:18:52,extract,groq,openai/gpt-oss-120b,1,2713,594,1070,True,
 2026-10-18 16:18:56,extract,groq,openai/gpt-oss-120b,1,2818,492,1112,True,
+2026-10-18 16:21:11,estimate,groq,openai/gpt-oss-120b,1,1543,253,491,True,
+2026-10-18 16:21:14,estimate,groq,openai/gpt-oss-120b,1,1991,252,714,True,
+2026-10-18 16:21:18,estimate,groq,openai/gpt-oss-120b,1,2325,255,907,True,
+2026-10-18 16:21:21,estimate,groq,openai/gpt-oss-120b,1,1452,259,488,True,
