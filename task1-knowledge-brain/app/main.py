@@ -148,3 +148,66 @@ def get_escalations():
         return {"escalations": [dict(row) for row in rows]}
     finally:
         conn.close()
+
+
+from fastapi import HTTPException   # noqa: E402
+
+
+class ResolveRequest(BaseModel):
+    expert_answer: str = Field(min_length=10, max_length=3000)
+    expert_name: str = Field(min_length=2, max_length=80)
+
+
+def init_expert_tables():
+    conn = get_conn()
+    conn.execute("""CREATE TABLE IF NOT EXISTS expert_answers (
+        id INTEGER PRIMARY KEY AUTOINCREMENT, escalation_id INTEGER, question TEXT,
+        answer TEXT, expert TEXT, status TEXT DEFAULT 'pending_review',
+        created_at TEXT DEFAULT CURRENT_TIMESTAMP)""")
+    conn.commit()
+    conn.close()
+
+
+init_expert_tables()
+
+
+@app.post("/escalations/{esc_id}/resolve")
+def resolve_escalation(esc_id: int, req: ResolveRequest):
+    conn = get_conn()
+    try:
+        esc = conn.execute("SELECT * FROM escalations WHERE id=?", (esc_id,)).fetchone()
+        if esc is None:
+            raise HTTPException(404, "escalation not found")
+        cur = conn.execute(
+            "INSERT INTO expert_answers(escalation_id, question, answer, expert) "
+            "VALUES (?,?,?,?)", (esc_id, esc["question"], req.expert_answer, req.expert_name))
+        conn.execute("UPDATE escalations SET status='answered_pending_review', "
+                     "expert_answer=? WHERE id=?", (req.expert_answer, esc_id))
+        conn.commit()
+        return {"expert_answer_id": cur.lastrowid, "status": "pending_review"}
+    finally:
+        conn.close()
+
+
+@app.post("/expert-answers/{ans_id}/approve")
+def approve_expert_answer(ans_id: int):
+    conn = get_conn()
+    try:
+        a = conn.execute("SELECT * FROM expert_answers WHERE id=?", (ans_id,)).fetchone()
+        if a is None:
+            raise HTTPException(404, "expert answer not found")
+        if a["status"] == "approved":
+            return {"status": "already_approved"}
+        url = f"expert://answer/{ans_id}"
+        conn.execute("INSERT OR REPLACE INTO pages(url, content_hash, status, error, active) "
+                     "VALUES (?, 'expert', 'done', NULL, 1)", (url,))
+        conn.execute("INSERT INTO chunks(url, title, heading, text, images) "
+                     "VALUES (?,?,?,?,'[]')",
+                     (url, "Expert answer", a["question"], a["answer"]))
+        conn.execute("UPDATE expert_answers SET status='approved' WHERE id=?", (ans_id,))
+        conn.execute("UPDATE escalations SET status='resolved' WHERE id=?",
+                     (a["escalation_id"],))
+        conn.commit()
+        return {"status": "approved", "searchable_as": url}
+    finally:
+        conn.close()
