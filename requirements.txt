@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+pydantic
+beautifulsoup4
+httpx
+python-dotenv
+streamlit
+requests
+pytest
