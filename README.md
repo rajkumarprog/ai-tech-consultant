@@ -41,6 +41,16 @@ Copy `.env.example` to `.env` and add a Groq API key (free tier available at [co
 python -m pytest -q
 ```
 
+**Build the Knowledge Brain index first** (crawls public help-center articles into a local SQLite full-text index; about 1 second per article):
+
+```bash
+cd task1-knowledge-brain
+python -m app.ingest --limit 100     # increase the limit for more coverage
+cd ..
+```
+
+Without this step the API starts but escalates every question, because the index is empty.
+
 **Start the Knowledge Brain API and the Inbox review UI together** (macOS / Linux / Codespaces):
 
 ```bash
